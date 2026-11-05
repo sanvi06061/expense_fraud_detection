@@ -1,0 +1,4 @@
+Model,Threshold (validation F2),Test accuracy,Fraud precision,Fraud recall,Fraud F1,Fraud F2,ROC-AUC,TP,FP,FN,TN,Validation precision,Validation recall,Validation F2
+Random Forest (class-weighted),0.27,0.8676,0.0438,0.3578,0.078,0.1469,0.6883,112,2447,201,17240,0.0446,0.3535,0.1482
+SMOTE + Random Forest,0.09,0.835,0.0383,0.3962,0.0699,0.1382,0.7084,124,3111,189,16576,0.0485,0.4904,0.1739
+Class-weighted Logistic Regression,0.63,0.8931,0.0435,0.278,0.0753,0.1338,0.6773,87,1911,226,17776,0.0528,0.3503,0.1647
